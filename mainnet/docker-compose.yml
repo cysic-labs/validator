@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  node:
+    container_name: node
+    image: "ghcr.io/cysic-tech/cysic-network-public:testnet"
+    ports:
+      - "26657:26657"  # Tendermint RPC
+      - "26656:26656"  # Tendermint P2P
+      - "8545:8545"    # Ethereum JSON-RPC
+      - "8546:8546"    # Ethereum WebSocket  
+      - "1317:1317"    # Cosmos REST API
+      - "9090:9090"    # gRPC API
+      - "6065:6065"    # Metrics
+    environment:
+      - ID=xxx
+      - LOG=${LOG:-cysicmintd.log}
+      - LOGLEVEL=${LOGLEVEL:-info}
+      - TRACE=${TRACE:-false}
+    volumes:
+        - /data/cysic_validator:/cysicmint
+    networks:
+      - cysic-network
+    restart: unless-stopped
+    entrypoint: "bash start-docker.sh"
+
+networks:
+  cysic-network:
+    driver: bridge

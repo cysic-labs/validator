@@ -1,0 +1,876 @@
+{
+  "genesis_time": "2025-11-29T13:20:12.168391889Z",
+  "chain_id": "cysicmint_4399-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic147dj8tk6u6yzds2z74h0cvhz7a58jlek9cpr7z",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1ajt7jj3yw3pjxjrsz8v6u99cgh5klmull4dflw",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1krt4tmuf4jfqjnq9s5wg8k6gqp43qa6vx7l5dy",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1y0tm07d9vlnwl4y3zz2cq2c96jnypx45yv4cxl",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1um0a87d8yu9pey60f6adwnt4uvn3kwa8snndj7",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1udgqv28qqukcmhatp2dqchmv03rmt6fctedwtw",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1svmd03s5jq4lc4jd70f5krhgvamm4ns56j4cvg",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1kx2x0nxzpx2qy9catvwze68evqgd0h6fzk37d9",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1h76gp6wfs8f2lvhsv5kery735ulzrdl3npl6za",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1mu90jeucnh4y8hj5t4x76awzfv8v5g5r4pff7p",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic105mv6ft2q4p2g98a5r63707g23jzpqp9lzlj5e",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1nczh8m5a00avxerrh47yhgqr644px5tp8fva2h",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1697jcs8j2qvkdmc48y56fstjy7yup9uct2r6s3",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "cysic147dj8tk6u6yzds2z74h0cvhz7a58jlek9cpr7z",
+          "coins": [
+            {
+              "denom": "CGT",
+              "amount": "100000000000000000000"
+            },
+            {
+              "denom": "CYS",
+              "amount": "100000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1ajt7jj3yw3pjxjrsz8v6u99cgh5klmull4dflw",
+          "coins": [
+            {
+              "denom": "CGT",
+              "amount": "100000000000000000000"
+            },
+            {
+              "denom": "CYS",
+              "amount": "100000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1krt4tmuf4jfqjnq9s5wg8k6gqp43qa6vx7l5dy",
+          "coins": [
+            {
+              "denom": "CGT",
+              "amount": "100000000000000000000"
+            },
+            {
+              "denom": "CYS",
+              "amount": "100000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1y0tm07d9vlnwl4y3zz2cq2c96jnypx45yv4cxl",
+          "coins": [
+            {
+              "denom": "CGT",
+              "amount": "100000000000000000000"
+            },
+            {
+              "denom": "CYS",
+              "amount": "100000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1um0a87d8yu9pey60f6adwnt4uvn3kwa8snndj7",
+          "coins": [
+            {
+              "denom": "CGT",
+              "amount": "100000000000000000000"
+            },
+            {
+              "denom": "CYS",
+              "amount": "100000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1udgqv28qqukcmhatp2dqchmv03rmt6fctedwtw",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "80000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1svmd03s5jq4lc4jd70f5krhgvamm4ns56j4cvg",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "121100000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1kx2x0nxzpx2qy9catvwze68evqgd0h6fzk37d9",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "236200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1h76gp6wfs8f2lvhsv5kery735ulzrdl3npl6za",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "63341500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1mu90jeucnh4y8hj5t4x76awzfv8v5g5r4pff7p",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "6000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic105mv6ft2q4p2g98a5r63707g23jzpqp9lzlj5e",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "16458500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1nczh8m5a00avxerrh47yhgqr644px5tp8fva2h",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "20000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic1697jcs8j2qvkdmc48y56fstjy7yup9uct2r6s3",
+          "coins": [
+            {
+              "denom": "CYS",
+              "amount": "55000000000000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "CYS",
+        "amount": "1000"
+      }
+    },
+    "cysic": {
+      "params": {
+        "prover_min_reserve": "100000000000000000000",
+        "verifier_min_reserve": "100000000000000000000",
+        "unreserve_time_lock": "604800",
+        "role_register": [
+          "cysic1n7ppmjenj83dhxtcwjkx9xrfqvvdr8lp9l2rap"
+        ]
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "election": {
+      "params": {
+        "x": "1",
+        "y": "2",
+        "min_power": "100",
+        "hardware_reward_share": "3300",
+        "task_reward_share": "3300",
+        "treasure_reward_share": "2940",
+        "hardware_address": "cysic1qkyhvv7s9gut7yl0vwzdtx5gnfw4eaxc23zw9t",
+        "treasure_address": "cysic199lzl7gfkyqewhmz9fyzf9xtk9cgltpdcx67rk"
+      }
+    },
+    "epoch": {
+      "params": {
+        "epoch_length": "200"
+      },
+      "start_block": "1",
+      "current_epoch": "0"
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "evm_denom": "CYS",
+        "enable_create": true,
+        "enable_call": true,
+        "extra_eips": [],
+        "chain_config": {
+          "homestead_block": "0",
+          "dao_fork_block": "0",
+          "dao_fork_support": true,
+          "eip150_block": "0",
+          "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "eip155_block": "0",
+          "eip158_block": "0",
+          "byzantium_block": "0",
+          "constantinople_block": "0",
+          "petersburg_block": "0",
+          "istanbul_block": "0",
+          "muir_glacier_block": "0",
+          "berlin_block": "0",
+          "london_block": "0",
+          "arrow_glacier_block": "0",
+          "gray_glacier_block": "0",
+          "merge_netsplit_block": "0",
+          "shanghai_block": "0",
+          "cancun_block": "0"
+        },
+        "allow_unprotected_txs": false
+      }
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "params": {
+        "no_base_fee": false,
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "0",
+        "base_fee": "1000000000",
+        "min_gas_price": "0.000000000000000000",
+        "min_gas_multiplier": "0.500000000000000000"
+      },
+      "block_gas": "0"
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "account_01",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "cysic147dj8tk6u6yzds2z74h0cvhz7a58jlek9cpr7z",
+                "validator_address": "cysicvaloper147dj8tk6u6yzds2z74h0cvhz7a58jlekur729p",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "5/k6VB/9YFyq5vEQ6oKFabmAn9Q7COhj9F1hyRKNpVs="
+                },
+                "value": {
+                  "denom": "CGT",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "eb5b76b4c738c5eb4b915ec1060b595823bdc19b:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "Atd+SHeXXIeqsfTPZnykoTdcCRuP3IOCEI6ggol6LBX4"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "E6lLP787Sai7X4czxrS7/B1zpXK6vjVeKjCwm8FwYYdmu58oGpNCOmRb6WZXUy920Bvyr5gowuRFUlrLFPhfeQE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "account_01",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "cysic1ajt7jj3yw3pjxjrsz8v6u99cgh5klmull4dflw",
+                "validator_address": "cysicvaloper1ajt7jj3yw3pjxjrsz8v6u99cgh5klmulxwjqyd",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zeTBN4xZZu8BxEHOX4nLRnukQj4/Bx6FEL5vyOqLyZc="
+                },
+                "value": {
+                  "denom": "CGT",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "c15e810d7cd48d24b4e8d5c3b834365b1a0070d4:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A7Ba/NdfKGGN9y5jpmeM/lMEQ/3zy93FUiw2Q2RIERjL"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "YSAdZuY+jmPpI+8SrMckx2j0iQZoF5Zp4ayJboe1uCVT+Bt7HD0QFD45pCGD44EVGRN7lGwR2P6d4dCpw2/JRgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "account_01",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "cysic1krt4tmuf4jfqjnq9s5wg8k6gqp43qa6vx7l5dy",
+                "validator_address": "cysicvaloper1krt4tmuf4jfqjnq9s5wg8k6gqp43qa6vl9qak8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "AZtu4zf56oHzk6e6cFYTjr+86b4YVCO122LnNcUUA2A="
+                },
+                "value": {
+                  "denom": "CGT",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "9b9eb05c7085e5bfcacc6e3a7dde14cc0e16c1a8:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "ArgJjiHFYXMW3UEnFl2rTxyqA2iSgpQ24lq8tvJEz7R4"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "oFB0id5v68Bg1w+ckzhVCDGUev/cxG/rv8WDy4p3IllExy4EdV7CbVy1HJ4suXh5RGpxNcTtXP8/ZmjQu6hIKAA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "account_01",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "cysic1y0tm07d9vlnwl4y3zz2cq2c96jnypx45yv4cxl",
+                "validator_address": "cysicvaloper1y0tm07d9vlnwl4y3zz2cq2c96jnypx45ah23au",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "sewGNb7sELuHHZz98NY9Xk+9P3GM0Sy4xQiOWQy6jL8="
+                },
+                "value": {
+                  "denom": "CGT",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "c344d5f96517ff424c81f1acd87f24c631e42dbf:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A8WYIRXNVcgiA9MRRhh2lkXz3O+NwjSfC9DHB8oo9gd3"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "fPHY3t+/uN8mqxJN7OU6ZKaiwx+7/SRyGz0WRruojfNbgdO0FtiEF61a/Av9NVkFTPiVrohl+AB+l+NtmxTaDgE="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "account_01",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "cysic1um0a87d8yu9pey60f6adwnt4uvn3kwa8snndj7",
+                "validator_address": "cysicvaloper1um0a87d8yu9pey60f6adwnt4uvn3kwa8fgvyfa",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "sIc6rms4NxIgj5ZGDXHz4irDsyA2UjD53TpA8SLX7nI="
+                },
+                "value": {
+                  "denom": "CGT",
+                  "amount": "100000000000000000000"
+                }
+              }
+            ],
+            "memo": "53e36a7d492fee94d34140e4f5aaf9cd817c8152:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A7N+iCSihcEG/e2NDv87Hn50Ey61BjfX46c/jNVQvctk"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_LEGACY_AMINO_JSON"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "XMdBoUGvLw0I6WEGKRYE3zFqqQiq+QMzuPRVHcqn9zpUB2/viCxAZDs1exkO/hw4h5dOPiQ6hAEj6xhNnnGODgA="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "CYS",
+            "amount": "10000000000000000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
+      },
+      "voting_params": {
+        "voting_period": "7200s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "govtoken": {
+      "params": {
+        "owner": "cysic147dj8tk6u6yzds2z74h0cvhz7a58jlek9cpr7z",
+        "denom": "CGT",
+        "total_supply": "1000000000000000000000000000",
+        "exchange_rate": "1",
+        "gen_validators": [
+          "cysic147dj8tk6u6yzds2z74h0cvhz7a58jlek9cpr7z",
+          "cysic1ajt7jj3yw3pjxjrsz8v6u99cgh5klmull4dflw",
+          "cysic1krt4tmuf4jfqjnq9s5wg8k6gqp43qa6vx7l5dy",
+          "cysic1y0tm07d9vlnwl4y3zz2cq2c96jnypx45yv4cxl",
+          "cysic1um0a87d8yu9pey60f6adwnt4uvn3kwa8snndj7"
+        ],
+        "init_validator_token": "0"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "CYS",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "CGT",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {},
+    "zktask": {
+      "params": {
+        "max_prover_per_task": "3",
+        "task_matcher": "cysic1n7ppmjenj83dhxtcwjkx9xrfqvvdr8lp9l2rap",
+        "task_pool_address": "cysic1ud2dqtze0mgsjt4cehv6k3htnhwhvjcuhk3xhs",
+        "task_reward_distribute_rate": "100",
+        "check_prover_reserve": false,
+        "check_verifier_reserve": false,
+        "slash_burn_rate": "50",
+        "withdraw_authority": "cysic1n7ppmjenj83dhxtcwjkx9xrfqvvdr8lp9l2rap",
+        "treasure_address": "cysic1udgqv28qqukcmhatp2dqchmv03rmt6fctedwtw"
+      }
+    }
+  }
+}
