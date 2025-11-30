@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2025-11-29T13:20:12.168391889Z",
+  "genesis_time": "2025-11-30T02:34:35.95930643Z",
   "chain_id": "cysicmint_4399-1",
   "initial_height": "1",
   "consensus_params": {
@@ -84,7 +84,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1udgqv28qqukcmhatp2dqchmv03rmt6fctedwtw",
+            "address": "cysic1j85vk70arlj7vdqm0eamxrc067yd92976gllkm",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -94,7 +94,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1svmd03s5jq4lc4jd70f5krhgvamm4ns56j4cvg",
+            "address": "cysic12ef8084f4lrhnl4g39hggpnrspzjs625cl4tac",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -104,7 +104,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1kx2x0nxzpx2qy9catvwze68evqgd0h6fzk37d9",
+            "address": "cysic1zj6wc0ne729wd5r43g3vzpk9fl76vwuert9m2p",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -114,7 +114,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1h76gp6wfs8f2lvhsv5kery735ulzrdl3npl6za",
+            "address": "cysic1365sht3slavudu8h6qn2wtkqxyqkh0fmc0ragw",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -124,7 +124,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1mu90jeucnh4y8hj5t4x76awzfv8v5g5r4pff7p",
+            "address": "cysic1a9xzyxxt3udmuqrld4sv3l6cvw8yxr3ll5m70t",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -134,7 +134,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic105mv6ft2q4p2g98a5r63707g23jzpqp9lzlj5e",
+            "address": "cysic1y5wqdadkfwz9zhuf6pzt9jl7l0n2dkxvyv6ypy",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -144,7 +144,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1nczh8m5a00avxerrh47yhgqr644px5tp8fva2h",
+            "address": "cysic1hrfps6u6dl0mw328cypdh6npt65xk6vhw3qja0",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -154,7 +154,17 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1697jcs8j2qvkdmc48y56fstjy7yup9uct2r6s3",
+            "address": "cysic17gtqp8zey8c99x4xhfem92c6l730uffnalnnpz",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        {
+          "@type": "/cysicmint.types.v1.EthAccount",
+          "base_account": {
+            "address": "cysic1kfwjsfrxyes69dt8l33wjyhtgcaeaxtw8h3gv8",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -238,7 +248,16 @@
           ]
         },
         {
-          "address": "cysic1udgqv28qqukcmhatp2dqchmv03rmt6fctedwtw",
+          "address": "cysic1j85vk70arlj7vdqm0eamxrc067yd92976gllkm",
+          "coins": [
+            {
+              "denom": "CGT",
+              "amount": "1000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "cysic12ef8084f4lrhnl4g39hggpnrspzjs625cl4tac",
           "coins": [
             {
               "denom": "CYS",
@@ -247,7 +266,7 @@
           ]
         },
         {
-          "address": "cysic1svmd03s5jq4lc4jd70f5krhgvamm4ns56j4cvg",
+          "address": "cysic1zj6wc0ne729wd5r43g3vzpk9fl76vwuert9m2p",
           "coins": [
             {
               "denom": "CYS",
@@ -256,7 +275,7 @@
           ]
         },
         {
-          "address": "cysic1kx2x0nxzpx2qy9catvwze68evqgd0h6fzk37d9",
+          "address": "cysic1365sht3slavudu8h6qn2wtkqxyqkh0fmc0ragw",
           "coins": [
             {
               "denom": "CYS",
@@ -265,7 +284,7 @@
           ]
         },
         {
-          "address": "cysic1h76gp6wfs8f2lvhsv5kery735ulzrdl3npl6za",
+          "address": "cysic1a9xzyxxt3udmuqrld4sv3l6cvw8yxr3ll5m70t",
           "coins": [
             {
               "denom": "CYS",
@@ -274,7 +293,7 @@
           ]
         },
         {
-          "address": "cysic1mu90jeucnh4y8hj5t4x76awzfv8v5g5r4pff7p",
+          "address": "cysic1y5wqdadkfwz9zhuf6pzt9jl7l0n2dkxvyv6ypy",
           "coins": [
             {
               "denom": "CYS",
@@ -283,7 +302,7 @@
           ]
         },
         {
-          "address": "cysic105mv6ft2q4p2g98a5r63707g23jzpqp9lzlj5e",
+          "address": "cysic1hrfps6u6dl0mw328cypdh6npt65xk6vhw3qja0",
           "coins": [
             {
               "denom": "CYS",
@@ -292,7 +311,7 @@
           ]
         },
         {
-          "address": "cysic1nczh8m5a00avxerrh47yhgqr644px5tp8fva2h",
+          "address": "cysic17gtqp8zey8c99x4xhfem92c6l730uffnalnnpz",
           "coins": [
             {
               "denom": "CYS",
@@ -301,7 +320,7 @@
           ]
         },
         {
-          "address": "cysic1697jcs8j2qvkdmc48y56fstjy7yup9uct2r6s3",
+          "address": "cysic1kfwjsfrxyes69dt8l33wjyhtgcaeaxtw8h3gv8",
           "coins": [
             {
               "denom": "CYS",
@@ -359,9 +378,9 @@
         "min_power": "100",
         "hardware_reward_share": "3300",
         "task_reward_share": "3300",
-        "treasure_reward_share": "2940",
-        "hardware_address": "cysic1qkyhvv7s9gut7yl0vwzdtx5gnfw4eaxc23zw9t",
-        "treasure_address": "cysic199lzl7gfkyqewhmz9fyzf9xtk9cgltpdcx67rk"
+        "treasure_reward_share": "3120",
+        "hardware_address": "cysic1jkux6j9fyr0yc7lxffkl9f2fdr4w8m5q7mchcm",
+        "treasure_address": "cysic1v5phz6vuhdcgc0zqexatn50eczs256dl5uvjgu"
       }
     },
     "epoch": {
@@ -863,7 +882,7 @@
       "params": {
         "max_prover_per_task": "3",
         "task_matcher": "cysic1n7ppmjenj83dhxtcwjkx9xrfqvvdr8lp9l2rap",
-        "task_pool_address": "cysic1ud2dqtze0mgsjt4cehv6k3htnhwhvjcuhk3xhs",
+        "task_pool_address": "cysic1c5dy7hazwgp9lkyvqqg9u6v9ga0f0ja3rwsrly",
         "task_reward_distribute_rate": "100",
         "check_prover_reserve": false,
         "check_verifier_reserve": false,
