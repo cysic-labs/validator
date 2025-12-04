@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2025-12-04T12:46:41.031999375Z",
+  "genesis_time": "2025-12-04T13:22:03.934058713Z",
   "chain_id": "cysicmint_4399-1",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1uv7klkeak9alpdwgyj2wrw3u6ux939uxe63ude",
+            "address": "cysic1udtfhfatg3g8z32ax7sf78w5kle45g0ansqknc",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -44,7 +44,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1rn3fw3x78az4e7tup4v83xa5rzpnhwwlt02ngl",
+            "address": "cysic1zv4k7ygwjsc3dc84cx03ea429pys0crwccarjh",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -54,7 +54,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1rnqqkfajs8hdkmh6vt7vyswjnjpajq83m6lt8t",
+            "address": "cysic1qzrua777cgf4hsl9z93rguh0ln5thzq8r90kp8",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -64,7 +64,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic14sffqrkayumktgj5wf64judj9eucaxrpdk2vx3",
+            "address": "cysic1ej6ccjz2vv5k2qk3hkq8t0k93fkwn57scza6rq",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -74,7 +74,7 @@
         {
           "@type": "/cysicmint.types.v1.EthAccount",
           "base_account": {
-            "address": "cysic1e63432t7uz3ua5507sr0dhrk6jasx35sv32tz2",
+            "address": "cysic13pushspk2tmmekqzlwsag5q0xr4ekydyqd7wu2",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -183,7 +183,7 @@
       },
       "balances": [
         {
-          "address": "cysic1uv7klkeak9alpdwgyj2wrw3u6ux939uxe63ude",
+          "address": "cysic1udtfhfatg3g8z32ax7sf78w5kle45g0ansqknc",
           "coins": [
             {
               "denom": "CGT",
@@ -196,7 +196,7 @@
           ]
         },
         {
-          "address": "cysic1rn3fw3x78az4e7tup4v83xa5rzpnhwwlt02ngl",
+          "address": "cysic1zv4k7ygwjsc3dc84cx03ea429pys0crwccarjh",
           "coins": [
             {
               "denom": "CGT",
@@ -209,7 +209,7 @@
           ]
         },
         {
-          "address": "cysic1rnqqkfajs8hdkmh6vt7vyswjnjpajq83m6lt8t",
+          "address": "cysic1qzrua777cgf4hsl9z93rguh0ln5thzq8r90kp8",
           "coins": [
             {
               "denom": "CGT",
@@ -222,7 +222,7 @@
           ]
         },
         {
-          "address": "cysic14sffqrkayumktgj5wf64judj9eucaxrpdk2vx3",
+          "address": "cysic1ej6ccjz2vv5k2qk3hkq8t0k93fkwn57scza6rq",
           "coins": [
             {
               "denom": "CGT",
@@ -235,7 +235,7 @@
           ]
         },
         {
-          "address": "cysic1e63432t7uz3ua5507sr0dhrk6jasx35sv32tz2",
+          "address": "cysic13pushspk2tmmekqzlwsag5q0xr4ekydyqd7wu2",
           "coins": [
             {
               "denom": "CGT",
@@ -447,7 +447,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "validator-01",
+                  "moniker": "Athena",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -459,11 +459,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "cysic1uv7klkeak9alpdwgyj2wrw3u6ux939uxe63ude",
-                "validator_address": "cysicvaloper1uv7klkeak9alpdwgyj2wrw3u6ux939uxqpw4k6",
+                "delegator_address": "cysic1udtfhfatg3g8z32ax7sf78w5kle45g0ansqknc",
+                "validator_address": "cysicvaloper1udtfhfatg3g8z32ax7sf78w5kle45g0a2tllgm",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "iX1aJcvHxXf01A/dUAcifd/PhLZfNlkn2yDx0uRcqZ8="
+                  "key": "3Xnsh3O6vicy6EB7LG3e2vSYIyD62FM7+oFiD9rdXhE="
                 },
                 "value": {
                   "denom": "CGT",
@@ -471,7 +471,7 @@
                 }
               }
             ],
-            "memo": "68566bb059367bb213f1349f7fcda8c1b8569e25:26656",
+            "memo": "d518d0d3be4157699b047a62cf9a3ef817ccb6fe:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -481,7 +481,7 @@
               {
                 "public_key": {
                   "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A+FfoWmyXE6y51RFXDQ07+bC4Jmzzy9+D7cAEOh38f6M"
+                  "key": "A4cMExcGvJhESG1IEeyym7cxUDtWb1adZu7iOlYmep/v"
                 },
                 "mode_info": {
                   "single": {
@@ -500,7 +500,7 @@
             "tip": null
           },
           "signatures": [
-            "CH82bWbMZ+IROM9elXmwcN26g/3hL08JQMD8I2Pt7Xh43l7htNKkdvmBrx1n5HtVJbW9gUJbtIUrq28W0VJ+QwE="
+            "v1tpkT+vNghlTuh0eKCgWxq6WAjPYpeR8uaTVxMNV+gDVsAMCsMGt0Bg9jwqtrUmJBbwYLFJIYz31W/bmNw79wA="
           ]
         },
         {
@@ -509,7 +509,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "validator-02",
+                  "moniker": "Poseidon",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -521,11 +521,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "cysic1rn3fw3x78az4e7tup4v83xa5rzpnhwwlt02ngl",
-                "validator_address": "cysicvaloper1rn3fw3x78az4e7tup4v83xa5rzpnhwwlj546nu",
+                "delegator_address": "cysic1zv4k7ygwjsc3dc84cx03ea429pys0crwccarjh",
+                "validator_address": "cysicvaloper1zv4k7ygwjsc3dc84cx03ea429pys0crwprz2f5",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "zuZXwk6pBzFXJuqwucadpxdD5SNjVHazJwlRnluVjck="
+                  "key": "xxANAT+sgncQKzmkAlefE/bS7SA7M9APUjf7KGZ71qI="
                 },
                 "value": {
                   "denom": "CGT",
@@ -533,7 +533,7 @@
                 }
               }
             ],
-            "memo": "37e3649b0c474c5b254b50d087c3912618a6c0c3:26656",
+            "memo": "6c8b1230af406f68f92745445e4fd464328f050d:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -543,7 +543,7 @@
               {
                 "public_key": {
                   "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A4zULqWmTGQYoRTdWk0FIpMfevUvouyI01Hr//fizanp"
+                  "key": "AzuVNP5ehkgavONeAWtonwtmCBwzpNX+rZ8G909F+Gh+"
                 },
                 "mode_info": {
                   "single": {
@@ -562,7 +562,7 @@
             "tip": null
           },
           "signatures": [
-            "6sd+my8JwnCvSPD/JIq7bXYb1ErKU9sljvKjA8Sj99FKkjqPzsnuTzH0UsM3YD3LuQf3SozY1FWZ7WycNZG7OAA="
+            "/ZWghwFzi/0/71sZ8pClfwNJXEuKbTLpGzaYTlxQ3/4GI9rThP1CwM+wXC7tVFjgI8HzdRwNAxXRQkeEwimqJAA="
           ]
         },
         {
@@ -571,7 +571,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "validator-3",
+                  "moniker": "CysicFoundation01",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -583,11 +583,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "cysic1rnqqkfajs8hdkmh6vt7vyswjnjpajq83m6lt8t",
-                "validator_address": "cysicvaloper1rnqqkfajs8hdkmh6vt7vyswjnjpajq83zpqzug",
+                "delegator_address": "cysic1qzrua777cgf4hsl9z93rguh0ln5thzq8r90kp8",
+                "validator_address": "cysicvaloper1qzrua777cgf4hsl9z93rguh0ln5thzq867sl6y",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "x+G8M5qBP5v8BUbiRw7rVviWxVAF0f4clxYIob4d8ZU="
+                  "key": "waoNIPniMP3I/rTqxj+Qi3YlTD2FA17a8yhxS5e0ftY="
                 },
                 "value": {
                   "denom": "CGT",
@@ -595,7 +595,7 @@
                 }
               }
             ],
-            "memo": "a3040e113815d52b1901c14e0e915c88dd41e52e:26656",
+            "memo": "394fa79b971c77417000738e9f9f291e85beea73:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -605,7 +605,7 @@
               {
                 "public_key": {
                   "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A5vZ3ZHJ5mJLvpp8Ha1eYNs4UOMajF5Ls1QWqlMcB3xQ"
+                  "key": "A93Hx7Nf1PvljX6EHkLln88NP4mxOJxkX7B860DvpyPA"
                 },
                 "mode_info": {
                   "single": {
@@ -624,7 +624,7 @@
             "tip": null
           },
           "signatures": [
-            "br8NiwjU7uXG34J2CRtr+lukr12V7D5jTs+F3MywhJgludHTUH8vPKzO082Osdjw5UzzexR06kkR5t0u0bE+hAE="
+            "08IRQ5uD4IdSzFlFeyvCBJR3d9V/7gVJBQhYtL1tp6lup3a39Y7MjkiUPNBtLAvX0mKyhCMwBF19q2Y0e3ff+wA="
           ]
         },
         {
@@ -633,7 +633,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "validator-4",
+                  "moniker": "CysicFoundation02",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -645,11 +645,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "cysic14sffqrkayumktgj5wf64judj9eucaxrpdk2vx3",
-                "validator_address": "cysicvaloper14sffqrkayumktgj5wf64judj9eucaxrp5d49aj",
+                "delegator_address": "cysic1ej6ccjz2vv5k2qk3hkq8t0k93fkwn57scza6rq",
+                "validator_address": "cysicvaloper1ej6ccjz2vv5k2qk3hkq8t0k93fkwn57spezncr",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "jhttxsRZtHSCWPBQHvMVLrd4s2Je+I1WGyWroMgfIsQ="
+                  "key": "fiN4F+SuAjyEgwMVd7+Mw1HJHj/78iBSNzauRb6rd4E="
                 },
                 "value": {
                   "denom": "CGT",
@@ -657,7 +657,7 @@
                 }
               }
             ],
-            "memo": "b3edb0727e646315394433f24a8160dd92149efb:26656",
+            "memo": "a662223f7f4fedec1e9d4a723fd3da644ff6af82:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -667,7 +667,7 @@
               {
                 "public_key": {
                   "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "AxWC2WN9JHxkVmc/ICza0BBJhkecaWb9tjMxNmD+ddbY"
+                  "key": "AigZywHrKe1Dh5uRa0X3GpO92A4BYwtyL8/cR/EFwBLu"
                 },
                 "mode_info": {
                   "single": {
@@ -686,7 +686,7 @@
             "tip": null
           },
           "signatures": [
-            "TKl7jnszBuSrAfFdHxnswAHkBpH3JA4tU8ApIcMMUPoGj+wdnHRgr9s6fsmpgIouGPjfIhC2zgL3iqjjq3Ek/AE="
+            "2X09XuLiQ4OX4QO1Rv6IEFBdiVIGnoAZq6nwrY20UX5WT3Rm87FAQe399pO6Gz/Dxf+QblGI5QMJrEY9uzHxXwA="
           ]
         },
         {
@@ -695,7 +695,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "validator-5",
+                  "moniker": "anunnaki",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -707,11 +707,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "cysic1e63432t7uz3ua5507sr0dhrk6jasx35sv32tz2",
-                "validator_address": "cysicvaloper1e63432t7uz3ua5507sr0dhrk6jasx35s424zef",
+                "delegator_address": "cysic13pushspk2tmmekqzlwsag5q0xr4ekydyqd7wu2",
+                "validator_address": "cysicvaloper13pushspk2tmmekqzlwsag5q0xr4ekydyekp88f",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "AehNngmgOLRdZ6kjgjLiKDJQ44FXSszftIJ1wadbsRM="
+                  "key": "zv80f4q3arP6KRGtgHZWBqXfH67Dh8Gw5fKV6NxUqdU="
                 },
                 "value": {
                   "denom": "CGT",
@@ -719,7 +719,7 @@
                 }
               }
             ],
-            "memo": "1610fbeb30c13cbe73bc1bf3072087f1a34ad5f5:26656",
+            "memo": "bcaea7cc57f21f090abd6018a34108508c1cc634:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -729,7 +729,7 @@
               {
                 "public_key": {
                   "@type": "/cysicmint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "Asw7dKptKOjKqNFqSajK43E2kI0+/pCmIZnZI4eslp1J"
+                  "key": "ArRp9gLQsx43wjFEAp3jct7aqllw2/LzK5erXsGXK0Zb"
                 },
                 "mode_info": {
                   "single": {
@@ -748,7 +748,7 @@
             "tip": null
           },
           "signatures": [
-            "3DyddSR4ZPhkaK0kIrypIZObEXtPIS8ble9GeNMXcblQj5wPEuqUovwm/05Q9VnB8Nn/YSdYsFwYzSaOo81JUAA="
+            "c/f27YDnZxFxaMsUw8QtQt4TyrZ+L+ZPFGz0pClv7MMRX26LA+ks6Y3dbIfWlv/sJf9c9GS+3Cu5tju90rABmAA="
           ]
         }
       ]
@@ -783,11 +783,11 @@
         "total_supply": "1000000000000000000000000000",
         "exchange_rate": "1",
         "gen_validators": [
-          "cysic1uv7klkeak9alpdwgyj2wrw3u6ux939uxe63ude",
-          "cysic1rn3fw3x78az4e7tup4v83xa5rzpnhwwlt02ngl",
-          "cysic1rnqqkfajs8hdkmh6vt7vyswjnjpajq83m6lt8t",
-          "cysic14sffqrkayumktgj5wf64judj9eucaxrpdk2vx3",
-          "cysic1e63432t7uz3ua5507sr0dhrk6jasx35sv32tz2"
+          "cysic1udtfhfatg3g8z32ax7sf78w5kle45g0ansqknc",
+          "cysic1zv4k7ygwjsc3dc84cx03ea429pys0crwccarjh",
+          "cysic1qzrua777cgf4hsl9z93rguh0ln5thzq8r90kp8",
+          "cysic1ej6ccjz2vv5k2qk3hkq8t0k93fkwn57scza6rq",
+          "cysic13pushspk2tmmekqzlwsag5q0xr4ekydyqd7wu2"
         ],
         "init_validator_token": "0"
       }
