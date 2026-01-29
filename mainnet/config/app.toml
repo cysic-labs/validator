@@ -14,7 +14,7 @@ minimum-gas-prices = "250000000000CYS"
 # nothing: all historic states will be saved, nothing will be deleted (i.e. archiving node)
 # everything: 2 latest states will be kept; pruning at 10 block intervals.
 # custom: allow pruning options to be manually specified through 'pruning-keep-recent', and 'pruning-interval'
-pruning = "default"
+pruning = "nothing"
 
 # These are applied if and only if the pruning strategy is custom.
 pruning-keep-recent = "0"
@@ -59,11 +59,11 @@ inter-block-cache = true
 # ["message.sender", "message.recipient"]
 index-events = []
 
-# IavlCacheSize set the size of the iavl tree cache. 
+# IavlCacheSize set the size of the iavl tree cache.
 # Default cache size is 50mb.
 iavl-cache-size = 781250
 
-# IavlDisableFastNode enables or disables the fast node feature of IAVL. 
+# IavlDisableFastNode enables or disables the fast node feature of IAVL.
 # Default is false.
 iavl-disable-fastnode = false
 
@@ -242,7 +242,7 @@ keys = ["*", ]
 write_dir = ""
 prefix = ""
 
-# output-metadata specifies if output the metadata file which includes the abci request/responses 
+# output-metadata specifies if output the metadata file which includes the abci request/responses
 # during processing the block.
 output-metadata = "true"
 
