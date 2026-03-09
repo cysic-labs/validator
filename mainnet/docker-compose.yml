@@ -18,7 +18,7 @@ services:
       - LOGLEVEL=${LOGLEVEL:-info}
       - TRACE=${TRACE:-false}
     volumes:
-        - /data/cysic_validator:/cysicmint
+        - /data/mainnet:/cysicmint
     networks:
       - cysic-network
     restart: unless-stopped
